@@ -19,7 +19,7 @@ The platform aims to encourage student engagement with IBM SkillsBuild learning 
 The system encourages students to actively use IBM SkillsBuild, helping them gain digital credentials and showcase their skills for future careers, while providing a fun and engaging user experience.
 
 
-⚙️ Setup
+# ⚙️ Setup
 
 🗄️ Setting Up MySQL
 
