@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SkillsSync - Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="../../../login.css">
+    <link rel="icon" type="image/x-icon" href="/Logo.ico" />
+</head>
+
+<body>
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "91cc9657-b743-4c03-89bd-303022390dc8", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "61789d00-e978-482b-b59e-822bcb05ed43", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+</script>
+<div class="login-container">
+    <a href="/"><img src="/Logo.png" alt="SkillSync Logo" class="logo-img"></a>
+    <form action="/register" method="post" xmlns:th="http://www.w3.org/1999/xhtml">
+        <h1>Register</h1>
+        <div th:if="${errors}">
+            <ul>
+                <li th:each="error : ${errors}" th:text="${error}"></li>
+            </ul>
+        </div>
+        <div class="input-box">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <i class='bx bxs-envelope'></i>
+        </div>
+        <div class="input-box">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+        <button type="submit" class="btn">Register</button>
+
+        <div class="signup-link">
+            <p> Already have an account?
+                <a href="/login">Login</a> </p>
+        </div>
+    </form>
+    <div th:if="${successMessage}" id="success-popup" class="success-popup">
+        <p th:text="${successMessage}"></p>
+    </div>
+</div>
+</body>
+
+</html>

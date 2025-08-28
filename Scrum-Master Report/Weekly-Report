@@ -1,0 +1,97 @@
+# Weekly Report
+
+# Sprint 1
+Scrum-Master = Craig Long
+
+Report - 01/02/2025
+We Had a Online Meeting to address the User Stories , Scrum Board and Dod
+We addressed the advice given to us via the Supervisor for the User Stories, we implemented the improvements and defined the 11 user stories. Then we
+pushed 8 user stories in the sprint 1 backlog of the scrum board. Furthermore, We corrected and defined a Dod which all members agreed upon.
+
+At last we created the Screenshot folder in which the first screenshot of the scrum board was uploaded, also the Weekly report for the scrum master was added.
+Finally the Lab Report for Sprint 0 was Submitted on BlackBoard.
+
+
+Report - 03/02/2025
+
+We had another online meeting to address feedback on the user stories. Furthermore, we added a new user story to the board, we also added the testing column in the Scrum Board. We then set up the project in spring boot, and the Scrum Master Craig asigned the initial User stories to group members.
+
+Alireza(Ali) And abdurrahmaan working on login page
+Omar Farrag & Shushant: Setting up sign up page, creating User model, and setting up DB
+Jasper and Craig: Working on the landing page 
+
+Report - 10/02/2025 - Scrum Master: Abdurrahmaan
+
+We had a meeting in person in the computer Lab
+We discussed what needed to be improved/completed by the end of the meeting, we also had to come up with some
+new user stories.
+
+Abdurrahmaan: working on and improving search and filter courses - working on backend, and front end
+Alireza: working-on and improving login page
+Omar: Improving logic and working on quiz implementation
+Craig: improving learning history
+Jasper: working on courses page and improving it
+Sushant: working on certificates and certificates history, working on backend
+
+
+Report - 16/02/2025 - Scrum Master: Jasper
+
+We had another meeting to discuss our progress and sort out merging of branches. We discussed remaining tasks and how to use each other's code, as well as selected a new scrum master. We have made progress in the majority of our second batch of sprint 1 user stories now and some are into testing and revisew stages, including Edit user information and Course recommendations
+
+Omar: Working on quiz implementation
+Ali: Working on course and course recommendations 
+Craig: Working on learning history
+Jasper: New scrum master, implementing images into courses
+Abdurrahman: Working on search and filter courses
+Sushant: Working on certificates and certificate history
+
+Report - 18/02/2025 - Scrum Master: Jasper
+
+We had a call where we finalised our progress for Sprint 1, merged all branches to our staging branch, and created a demo video for our application where each group member gave instructions for at least one feature they worked on.
+
+
+Ali - 24/02 - Scrum Master : Ali
+
+We discussed the new User stories we want to do and assigned people to their user stories 
+I made a lab report that included everything that happened in the lab 
+We had a meeting to discuss what went wrong and what went well in the first Sprint 
+does the first screenshot of the second Sprint
+
+
+
+Scrum Master: Sushant (17/03/2025)
+Report - 17/03/2025
+We had a meeting where everyone updated each other and how we could best follow the scrum practices.
+We started helping each other commenting and testing together.
+Added the second screenshot for sprint 2.
+
+These are the tasks we assigned:
+Jasper: Made first draft of streaks system, currently in testing.
+Craig: Fixed all bugs and issues arrised from sprint 1 and started making the website responsive.
+Sushant: Finalising design for all the badges on Canva.
+Abz: Working on email notifications, so that students can be reminded to complete learning every few days.
+Ali: Working on the friend system, particularly focusing on friend request (accepting, refusing).
+Omar: Working on leaderboard system.
+
+
+Report (20/03/2025)
+We had a meeting with our client(supervisor) and asked for feedback for sprint 1.
+Made sure that we are following scrum techniques and that scrum board order is correct. 
+
+These are the tasks we assigned:
+Jasper: Testing streaks.
+Craig: Working on web responsivness and bug fixing, soon to be in testing.
+Sushant: Badges finalised. Reviewing others code. Making sure scrumboard is in order.
+Ali: Testing friend system.
+
+
+Scrum Master: Omar (25/03/2025)
+Report - 26/03/2025
+
+We had a call to make sure all of the issues are addressed and reviewed. Once that was done, all the outstanding branches were merged to staging, and created a demo video for our applications. We dicussed what we had done in sprint 2.
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------

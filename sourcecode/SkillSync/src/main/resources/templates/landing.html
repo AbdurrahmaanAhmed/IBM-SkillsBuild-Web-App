@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../../stylesheet.css">
+    <!-- Importing font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Logo.ico" />
+    <title>SkillSync</title>
+</head>
+<body>
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "91cc9657-b743-4c03-89bd-303022390dc8", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "61789d00-e978-482b-b59e-822bcb05ed43", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+</script>
+<section>
+    <div class="landing_header">
+        <nav>
+            <ul class="menuItems">
+                <li><img src="logo.png" width="180" height="55"> </li>
+                <li><a href="login" class="button">Login</a> </li>
+                <li><a href="register" class="button">Sign Up</a> </li>
+                <li><a href ="dashboard" class="button">Dashboard</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<section>
+    <!-- Main banner -->
+    <div class="landing_intro">
+        <p class="intro">
+            <span> Welcome to SkillSync</span> <br>
+            <span class="line_2">The all-in-one Learning platform for Computer Science</span> <br>
+            <span class="line_3">Powered by IBM</span>
+        </p>
+        <div class="button_container">
+            <a href="login" class="Center_Button">Login</a>
+            <a href="register" class="Center_Button">Sign Up</a>
+        </div>
+    </div>
+</section>
+<section>
+    <!-- Scroll arrow -->
+    <img class="Arrow" src="arrow.png"
+         onclick="document.querySelector('.landing_intro.intro').scrollIntoView()"
+         width="100" height="100">
+</section>
+<section>
+    <!-- Information section -->
+    <p class="landing_intro intro"><span>About This Site</span></p>
+    <div class="Info-container">
+        <div class="Info"><p>SkillSync is an interactive platform that enhances IBM SkillsBuild learning through gamification. It helps users track progress, take quizzes, receive personalized course recommendations, and earn certificates as they advance.</p></div>
+        <div class="Photos">
+            <div class="Image"><img src="lp1.png" width="200px" height="120px"></div>
+            <div class="Image"><img src="lp2.png" width="200px" height="120px"></div>
+            <div class="Image"><img src="lp3.png" width="200px" height="120px"></div>
+            <div class="Image"><img src="lp4.png" width="200px" height="120px"></div>
+        </div>
+    </div>
+</section>
+<section>
+    <!-- Scroll arrow -->
+    <img class="Arrow2" src="arrow.png"
+         onclick="document.querySelector('.faq').scrollIntoView(true)"
+         width="100" height="100">
+</section>
+<section>
+    <!-- FAQ section -->
+    <p class="landing_intro intro"><span>Frequently Asked Questions</span></p>
+    <div class="Info-container">
+        <div class="faq">
+            <details>
+                <summary>How do I register?</summary>
+                <p>Click here to register</p>
+            </details>
+            <details>
+                <summary>How do I log in?</summary>
+                <p>Click here to login</p>
+            </details>
+            <details>
+                <summary>What features are available?</summary>
+                <p>We have quizzes, progress tracking, certificates and achievements</p>
+            </details>
+            <details>
+                <summary>How do I get started?</summary>
+                <p>Ensure you have an IBM SkillsBuild Account, which you can create here</p>
+            </details>
+        </div>
+        <div class="faq">
+            <details>
+                <summary>How do I register?</summary>
+                <p>Click here to register</p>
+            </details>
+            <details>
+                <summary>How do I log in?</summary>
+                <p>Click here to login</p>
+            </details>
+            <details>
+                <summary>What features are available?</summary>
+                <p>We have quizzes, progress tracking, certificates and achievements</p>
+            </details>
+            <details>
+                <summary>How do I get started?</summary>
+                <p>Ensure you have an IBM SkillsBuild Account, which you can create here</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+<img class="Arrow3" src="Up-arrow.png"
+     onclick="document.querySelector('.landing_header').scrollIntoView(true)"
+     width="100" height="100">
+</section>
+<section>
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>Website created for CO2302, 2025</p>
+
+    </footer>
+</section>
+
+</body>
+</html>
