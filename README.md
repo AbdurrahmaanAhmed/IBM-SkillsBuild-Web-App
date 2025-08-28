@@ -20,6 +20,7 @@ The system encourages students to actively use IBM SkillsBuild, helping them gai
 
 
 ⚙️ Setup
+
 🗄️ Setting Up MySQL
 
     Open MySQL and log in as the root user.
